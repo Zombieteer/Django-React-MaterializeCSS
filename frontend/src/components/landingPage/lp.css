@@ -1,0 +1,107 @@
+.ass_avatar {
+    font-size: 150px !important;
+    justify-content: center;
+    color: #349DFF;
+}
+
+div>ul>li {
+    margin: 20px;
+}
+
+.header_item {
+    display: flex;
+    padding: 0 !important;
+}
+
+.row {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.add_del_btn {
+    margin: 10px;
+}
+
+.add_del_btn>a {
+    width: 100%;
+}
+
+.add_btn {
+    background-color: #8A26E5;
+    box-shadow: 1px;
+}
+
+.del_btn {
+    background-color: white;
+    color: #8A26E5;
+    /* border-color: #8A26E5;
+    border: black 1px; */
+    /* box-shadow: none; */
+}
+
+.btn {
+    letter-spacing: 1.5px;
+    text-transform: none;
+    border-radius: 3px;
+}
+
+.card .card-action {
+    background-color: initial;
+    border: none
+}
+
+.card .card-content {
+    padding: 0 24px;
+    border-radius: 0 0 2px 2px;
+}
+
+.cards {
+    padding-left: 0 !important;
+    /* padding-right: 1 !important; */
+    /* margin-right: 1.4rem; */
+}
+
+
+.partner_detail_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.on_task_partner_detail_btn {
+    background-color: white !important;
+    border-width: 1px;
+    border-color: #8A26E5;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.details_on_card {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.modal {
+    width: 30%;
+    border-radius: 5px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (min-width: 601px) {
+    .row .col.m7 {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .row .col.l3 {
+        width: 20%;
+    }
+}
